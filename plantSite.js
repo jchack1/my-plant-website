@@ -9,3 +9,6 @@ hamburgerMenu.addEventListener("click", function(){
 closeMenu.addEventListener("click", function(){
     mobileMenu.className = "menu-close";
 })
+
+
+//plant stories on click
