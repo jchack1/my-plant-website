@@ -12,3 +12,18 @@ closeMenu.addEventListener("click", function(){
 
 
 //plant stories on click
+//this toggles all images at once when one is clicked on
+image = document.querySelector(".hover-effect");
+
+image.onclick = function(){
+
+    document.querySelector("#tree-bentley-img").classList.toggle("visible");
+    document.querySelector("#bentley-text").classList.toggle("invisible");
+
+    document.querySelector("#tree-mark-img").classList.toggle("visible");
+    document.querySelector("#mark-text").classList.toggle("invisible");
+
+    document.querySelector("#shrub-jasper-img").classList.toggle("visible");
+    document.querySelector("#jasper-text").classList.toggle("invisible");
+    
+}
