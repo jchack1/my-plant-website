@@ -8,6 +8,7 @@ const ellie = document.getElementById("tropical-ellie");
 const viago = document.getElementById("tropical-viago");
 const aloe2 = document.getElementById("tropical-aloe-2");
 
+
 hana.addEventListener("click", function(){
     document.getElementById("tropical-hana-img").classList.toggle("visible");
     document.getElementById("tropical-hana-text").classList.toggle("invisible");

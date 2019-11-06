@@ -204,11 +204,6 @@ nav{
         max-width: 300px;
     }
     
-    .hover-effect:hover{
-        /* transform: scale(1.05);
-        transition: all .25s ease; */
-        box-shadow: 0px 1px 20px 0px rgba(0,0,0,0.75);
-    }
 
     /* text styling */
 

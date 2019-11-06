@@ -45,8 +45,8 @@ div > p{
     position: absolute;
     top: 30vmin;
     margin: 30vmin;
+    
 }
-
 
 
 #tropical-aloe-1-text{
@@ -74,12 +74,6 @@ div > p{
     top: 10vmin;
     margin: 10vmin;
 }
-
-
-
-
-
-
 
 
 
@@ -140,22 +134,21 @@ div > p{
     #paragraph-desktop{
         grid-row: 2/3;
         grid-column: 1/3;
+        max-width: 100ch;
+        justify-self: center;
     }
 
 
     /* images */
 
-    img{
-        margin: 5px;
-    }
+    
 
     .desktop-grid-images{
         grid-row: 2/3;
         width: 100vw;
         grid-template-columns: 15vw 25vw 20vw 25vw 15vw;
         grid-template-rows: 35vh 15vh 15vh 35vh;
-        /* grid-gap: 10px; */
-
+        
         justify-items: center;
         
     }
@@ -239,6 +232,7 @@ div > p{
         position: absolute;
         top: 7vmin;
         margin: 3vmin;
+        margin-left: 5vmin;
     }
     
     
@@ -247,18 +241,22 @@ div > p{
         position: absolute;
         top: 3vmin;
         margin: 7vmin;
+        margin-left: 9vmin;
+
     }
     
     #tropical-deacon-text, #tropical-betina-text{
         position: absolute;
         top: 12vmin;
         margin: 3vmin;
+        margin-left: 5vmin;
     }
     
     #tropical-bambam-text{
         position: absolute;
-        top: 20vmin;
+        top: 15vmin;
         margin: 3vmin;
+        margin-left: 5vmin;
     }
     
     
@@ -266,6 +264,8 @@ div > p{
         position: absolute;
         top: 2.5vmin;
         margin: 3vmin;
+        margin-left: 4vmin;
+
     }
 
     div > p{
