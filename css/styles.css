@@ -226,12 +226,12 @@ footer p a:hover{
         position: fixed; 
         top: 0;
         bottom: 0;
-        right: -300px;
-        width: 300px;
+        right: -275px;
+        width: 275px;
         height: 100vh;
         z-index: 1;
         
-        transform: translateX(300px);
+        transform: translateX(275px);
 
         background: hsla(26, 8%, 74%, 0.95);
         border-top-left-radius: 0px;
@@ -239,7 +239,7 @@ footer p a:hover{
     }
 
     .menu-open{
-        transform: translateX(-300px);
+        transform: translateX(-275px);
         transition: 0.2s;
         /* cubic bexier?? */
     }

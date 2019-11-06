@@ -239,7 +239,7 @@ div > p{
     
     #tropical-aloe-1-text{
         position: absolute;
-        top: 3vmin;
+        top: 2.5vmin;
         margin: 7vmin;
         margin-left: 9vmin;
 
@@ -247,14 +247,14 @@ div > p{
     
     #tropical-deacon-text, #tropical-betina-text{
         position: absolute;
-        top: 12vmin;
+        top: 8vmin;
         margin: 3vmin;
         margin-left: 5vmin;
     }
     
     #tropical-bambam-text{
         position: absolute;
-        top: 15vmin;
+        top: 13vmin;
         margin: 3vmin;
         margin-left: 5vmin;
     }
@@ -262,7 +262,7 @@ div > p{
     
     #tropical-ellie-text{
         position: absolute;
-        top: 2.5vmin;
+        top: 1vmin;
         margin: 3vmin;
         margin-left: 4vmin;
 
