@@ -42,12 +42,12 @@ nav{
     display: none;
 } */
 
-div > p{
+/* div > p{
     color: white;
     text-shadow: 0px 2px 2px black;
     text-align: center;
     font-size: 18px;
-}
+} */
 
 #tree-bentley, #tree-mark, #shrub-jasper{
     position: relative;
@@ -225,7 +225,9 @@ div > p{
         margin: 15vmin;
     }
 
-
+    div > p{
+        font-size: 18px;
+    }
 
     footer{
         grid-row: 3/4;

@@ -29,6 +29,60 @@ nav{
     background: white;
 }
 
+
+/* text and image styling */
+
+div > p{
+    font-size: 20px;
+}
+
+
+#tropical-hana, #tropical-snake, #tropical-aloe-1, #tropical-deacon, #tropical-bambam, #tropical-betina, #tropical-ellie, #tropical-viago, #tropical-aloe-2{
+    position: relative;
+}
+
+#tropical-hana-text, #tropical-snake-text, #tropical-viago-text, #tropical-aloe-2-text{
+    position: absolute;
+    top: 30vmin;
+    margin: 30vmin;
+}
+
+
+
+#tropical-aloe-1-text{
+    position: absolute;
+    top: 10vmin;
+    margin: 20vmin;
+    margin-left: 25vmin;
+}
+
+#tropical-deacon-text, #tropical-betina-text{
+    position: absolute;
+    top: 25vmin;
+    margin: 15vmin;
+}
+
+#tropical-bambam-text{
+    position: absolute;
+    top: 40vmin;
+    margin: 15vmin;
+}
+
+
+#tropical-ellie-text{
+    position: absolute;
+    top: 10vmin;
+    margin: 10vmin;
+}
+
+
+
+
+
+
+
+
+
 @media (max-width: 475px){
     #tropicals-link{
         background: none;
@@ -162,8 +216,61 @@ nav{
         max-width: 10vw;
     }
 
+    /*  img sizing for desktop*/
+
+    #tropical-hana-img, #tropical-snake-img, #tropical-viago-img, #tropical-aloe-2-img{
+        max-width: 10vw;
+    }
 
 
+    #tropical-aloe-1-img, #tropical-deacon-img, #tropical-betina-img, #tropical-ellie-img{
+        max-width: 20vw;
+    }
+
+
+    #tropical-bambam-img{
+        max-width: 15vw;
+    }
+
+
+    /* text positioning  */
+
+    #tropical-hana-text, #tropical-snake-text, #tropical-viago-text, #tropical-aloe-2-text{
+        position: absolute;
+        top: 7vmin;
+        margin: 3vmin;
+    }
+    
+    
+    
+    #tropical-aloe-1-text{
+        position: absolute;
+        top: 3vmin;
+        margin: 7vmin;
+    }
+    
+    #tropical-deacon-text, #tropical-betina-text{
+        position: absolute;
+        top: 12vmin;
+        margin: 3vmin;
+    }
+    
+    #tropical-bambam-text{
+        position: absolute;
+        top: 20vmin;
+        margin: 3vmin;
+    }
+    
+    
+    #tropical-ellie-text{
+        position: absolute;
+        top: 2.5vmin;
+        margin: 3vmin;
+    }
+
+    div > p{
+        font-size: 18px;
+    }
     
     footer{
         grid-row: 3/4;
