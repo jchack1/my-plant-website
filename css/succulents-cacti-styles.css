@@ -1,3 +1,5 @@
+/* styles for whole page, not specific to mobile or desktop */
+
 header{
     height: 40vh;
 }
@@ -31,8 +33,7 @@ nav{
 
 
 
-
-/* text and image styling */
+/* text and image styling - whole page*/
 
 
 #cactus-christmas, #cactus-itchy-scratchy, #cactus-baby, #succulent-morris{
@@ -65,7 +66,7 @@ nav{
 }
 
 
-
+/* mobile width */
 
 @media (max-width: 475px){
     #succulents-cacti-link{
@@ -75,6 +76,9 @@ nav{
         background: none;
     }
 }
+
+
+/* desktop width */
 
 @media (min-width: 1000px){
     .desktop-grid{
@@ -89,8 +93,6 @@ nav{
         grid-row: 1/2;
         grid-column: 1;
     }
-
-
 
     .header-grid{
         grid-row:  1/2;
@@ -147,13 +149,9 @@ nav{
         grid-gap: 5vmin;
         justify-items: center;
         grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr 1fr;
-        
-        
-
-        
-        
+        grid-template-rows: 1fr 1fr;   
     }
+
 
    /* images and their grid areas here */
 
@@ -177,7 +175,6 @@ nav{
         font-size: 18px;
     }
     
-
 
     footer{
         grid-row: 3/4;
