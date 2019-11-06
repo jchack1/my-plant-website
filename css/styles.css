@@ -20,6 +20,16 @@ h1, h2, h3 {
 }
 
 
+.visible{
+    filter: blur(1px) contrast(40%);
+}
+
+
+.invisible{
+    display: none;
+}
+
+
 /* home page styles */
 
 

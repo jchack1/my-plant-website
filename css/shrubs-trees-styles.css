@@ -33,9 +33,14 @@ nav{
 
 /* text and image styling */
 
-.visible{
+/* .visible{
     filter: blur(1px) contrast(40%);
 }
+
+
+.invisible{
+    display: none;
+} */
 
 div > p{
     color: white;
@@ -43,11 +48,6 @@ div > p{
     text-align: center;
     font-size: 18px;
 }
-
-.invisible{
-    display:none;
-}
-
 
 #tree-bentley, #tree-mark, #shrub-jasper{
     position: relative;
