@@ -296,7 +296,7 @@ footer p a:hover{
     .header-grid{
         display: grid;
         grid-template-columns: 25vw;
-        grid-template-rows: 10vmin 30vh 25vh 15vh 10vh;
+        grid-template-rows: 5vmin 25vh 40vh 15vh 5vh;
         margin: 0;
 
     }
